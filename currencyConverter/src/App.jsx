@@ -31,7 +31,7 @@ function App() {
         e.preventDefault()
         convertCurrency()
       }}>
-        <div className="w-lg mx-auto center p-4 m-4 bg-white
+        <div className="w-sm lg:w-lg mx-auto center p-4 m-4 bg-white
       rounded-lg flex flex-col items-center justify-center
       ">
         <div className="">
