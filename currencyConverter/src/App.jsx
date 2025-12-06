@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+
 import Inputbox from './InputBox.jsx'
 import useCurrencyInfo from './hooks/useCurrencyInfo.js'
 
@@ -31,7 +31,7 @@ function App() {
         e.preventDefault()
         convertCurrency()
       }}>
-        <div className="w-sm lg:w-lg mx-auto center p-4 m-4 bg-white
+        <div className="w-min mx-auto center p-4 m-4 bg-white
       rounded-lg flex flex-col items-center justify-center
       ">
         <div className="">
@@ -55,7 +55,7 @@ function App() {
           amountDisable
           />
         </div>
-        <button className='bg-green-400 w-md rounded-md p-2 text-white text-xl'>Convert {from.toUpperCase()} to {to.toUpperCase()}</button>
+        <button className='bg-green-400 w-max rounded-md p-2 text-white text-xl'>Convert {from.toUpperCase()} to {to.toUpperCase()}</button>
         
       </div>
       </form>
